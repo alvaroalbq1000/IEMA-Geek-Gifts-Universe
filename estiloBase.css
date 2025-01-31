@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 15px Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+}
+header img{
+    width: 60px;
+    height: 60px;
+}
+span{
+    color: darkviolet;
+}
+
+header{
+    background: rgb(220, 220, 220);
+    color: rgb(0, 0, 200);
+    height: 120px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#cbcCima{
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+#cbcEsq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cbcMeio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#cbcMeio a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+#cbcDir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cbcBaixo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.busca{
+    background-color: skyblue;
+    border: 5px solid darkviolet;
+    border-radius: 10px;
+    width: 95%;
+    height: 30px;
+}
+.busca input{
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    width: 90%;
+    height: 30px;
+}
+.busca button{
+    float: right;
+    width: 10%;
+    height: 30px;
+}
+.busca img{
+    width: 25px;
+    height: 25px;
+}
+
+footer{
+    background-color: rgb(220, 220, 220);
+    color: rgb(0, 0, 200);
+    padding: 20px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#contRodape{
+    width: 90%;
+    height: 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Pag_Social{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+}
+.Pag_Social img{
+    height: 50px;
+}
+#categorias {
+    display: grid;
+}

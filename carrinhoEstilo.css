@@ -1,0 +1,61 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 25px;
+    height: 550px;
+    background: mediumpurple;
+    border-radius: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.h2branco{
+    color: rgb(225, 225, 225)
+}
+th,td{
+    background-color: lightskyblue;
+    width: 150px;
+    height: 60px;
+    border: 2px solid rgb(0, 0, 200);
+}
+.productCell{width: 550px;}
+.qtd{
+    background-color: rgb(225, 225, 225);
+    border: 2px inset rgb(0, 0, 200);
+    border-radius: 20px;
+    width: 50px;
+    height: 20px;
+    padding: 0px 15px;
+    font-weight: bold
+}
+.tabelaImg{
+    width: 50px;
+    height: 50px;
+}
+.produto,.total{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.totalCompra{
+    background-color: lightskyblue;
+    border: 5px solid rgb(0, 0, 200);
+    border-radius: 60px;
+    width: 1026px;
+    height: 60px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#fimCompra{
+    background-color: lightskyblue;
+    border: 2px outset rgb(0, 0, 200);
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+}
+section{
+    padding: 20px;
+}

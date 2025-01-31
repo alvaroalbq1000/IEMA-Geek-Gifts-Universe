@@ -1,0 +1,37 @@
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    background: mediumpurple;
+    border-radius: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.h2branco{
+    color: rgb(225, 225, 225);
+    margin-bottom: 10px;
+}
+#logoGGU{
+    width: 400px;
+    height: 400px;
+    border-radius: 15%;
+}
+.caixatxt{
+    width: 250px;
+    height: 25px;
+    margin: 5px;
+    border: 2px solid rgb(0, 0, 200);
+    border-radius: 10px;
+    background-color: lightskyblue;
+}
+.send{
+    width: 125px;
+    height: 25px;
+    border: 2px outset rgb(0, 0, 200);
+    border-radius: 10px;
+    background-color: rgb(225, 225, 225);
+}
+section{
+    padding: 20px;
+}
